@@ -6,6 +6,6 @@ import org.sonar.python.checks.utils.PythonCheckVerifier;
 public class AvoidStringInSetTimeoutAndSetIntervalCheckTest {
 	@Test
     public void test() {
-        PythonCheckVerifier.verify("src/test/resources/checks/avoidStringInSetTimeoutAndSetInterval.py", new AvoidTryCatchFinallyCheck());
+        PythonCheckVerifier.verify("src/test/resources/checks/avoidStringInSetTimeoutAndSetInterval.py", new AvoidStringInSetTimeoutAndSetIntervalCheck());
     }
 }
